@@ -1,8 +1,6 @@
 # TDT4173-project-group6
 public repository for TDT4173 project, for political affiliation analysis for political tweets. All the programing is done in google colab. The most important imported frameworks being; pandas, numpy,sklearn, gensim, and keras.
 
-#DATASETS:
-
 #PROJECT DESCRIPTION:
 This paper presents the development and training of classifiers that based on a labeled trainingset of tweets identifies political affiliation of a US presidential candidate based on a new,  single tweet.
 
