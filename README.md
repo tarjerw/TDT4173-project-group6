@@ -15,6 +15,7 @@ For our methods we want to have real life tweets, with the candidate name, tweet
 To run the files the two csvs TweetDatabase_2016.csv and TweetDatabase_2020.csv need to be uploaded to colab. In addition, for training the word2vec model in ML_project_(CNN).ipynb, the 'reddit_worldnews_start_to_2016-11-22.csv' need to be downloaded and uploaded to colab from https://www.kaggle.com/rootuser/worldnews-on-reddit. This file was too large to be directly uploade to the git repository. 
 
 1) Data analytics, of the dataset is done in the file ML_project_(data_analysis). 
+     <br/>1.1) Remember to upload TableIt.py to colab (in addition to TweetDatabase_2016.csv and TweetDatabase_2020.csv) to print out the tables.
 
 2) Running logistic regression using bag-of-words and n-gram is done in the file ML_project_(BOW).ipynb.
     <br/>2.1) Remember to upload TableIt.py to colab (in addition to TweetDatabase_2016.csv and TweetDatabase_2020.csv) to print out the tables.
