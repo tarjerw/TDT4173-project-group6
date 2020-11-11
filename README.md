@@ -16,7 +16,8 @@ To run the files the two csvs TweetDatabase_2016.csv and TweetDatabase_2020.csv 
 
 1) Data analytics, of the dataset is done in the file ML_project_(data_analysis). 
 
-2) Running logistic regression using bag-of-words and n-gram is done in the file ML_project_(BOW).ipynb. 
+2) Running logistic regression using bag-of-words and n-gram is done in the file ML_project_(BOW).ipynb.
+    2.1) Remember to upload TableIt.py to colab (in addition to TweetDatabase_2016.csv and TweetDatabase_2020.csv) to print out the tables.
 
 3) Running the CNN is done in the file ML_project_(CNN).ipynb. 
     3.1) Under retrieve data, you need to set df_all equal to the dataset which you intend to use, (tweets2016_df, tweets2020_df, or tweets2016_2020_df)
