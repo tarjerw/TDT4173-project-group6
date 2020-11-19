@@ -24,7 +24,7 @@ A more detailed description of how to run the code is also available within each
 The 3rd party file `TableIt.py` present in the git repository, must be uploaded to colab before running (in addition to the two .csv files). This file was used to display python resuls in tables in a clear and simple manner, while minimizing the amount of unnecessary code. 
 
 1) Run `/Imported libraries` to import all libraries,
-2) Run `/Data retrival` to retrieve data from CSV files and create 3 datasets, 
+2) Run `/Data retrieval` to retrieve data from CSV files and create 3 datasets, 
 3) Run `/Splitting data` to split data into train and test sets, 
      <br/>3.1) Here you can alter the test set size (default is 20%) and see the distribution of tweets into the different sets
 4) Run `Transforming/Creating BOW model` to transform the data with the BOW method,
@@ -45,7 +45,7 @@ The 3rd party file `TableIt.py` present in the git repository, must be uploaded 
 The `'reddit_worldnews_start_to_2016-11-22.csv'` need to be downloaded and uploaded to colab from https://www.kaggle.com/rootuser/worldnews-on-reddit before running. This file was too large to be directly uploade to the git repository. 
 
 1) Run `/Imported libraries`
-2) Run `/Data retrival`, 
+2) Run `/Data retrieval`, 
      <br/>2.1) Here you also need to define which dataset to run the code on (`df_all` = `tweets2016_df`, `tweets2020_df` or `tweets2016_2020_df`)
 3) Run `/Creating a word embedding using word2vec`, 
      <br/>3.1) Here you can also change the dimension of the word2vec (`word2vec_dim`), currently set to 350
@@ -60,4 +60,15 @@ The `'reddit_worldnews_start_to_2016-11-22.csv'` need to be downloaded and uploa
 **NB:** When running the code on a new dataset steps **2, 3, 4, 5, 6 and 7** need to be repeated! 
 
 ### Running data analysis - ML_project_(data_analysis)
+
+1) Run `/Imported libraries`
+2) Run `/Data retrieval`, 
+3) Run `/Number of democrat and republican tweets`, 
+4) Run `/Number of tweets per candidate`,
+5) Run `/Comparing frequency of words between parties`
+    <br/>6.1) Here you can run the function `WordtoFrequency()` that counts the number of occurences of a given word in republican and democrat tweets.
+
+
+
+
 **NB:** If you have trouble running any of the code, feel free to reach out at tarjerw@stud.ntnu.no :)
