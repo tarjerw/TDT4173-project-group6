@@ -25,7 +25,7 @@ The `'reddit_worldnews_start_to_2016-11-22.csv'` need to be downloaded and uploa
 
 1) Run `/Imported libraries`
 2) Run `/Data retrival`, 
-     <br/>2.1) Here you also need to define which dataset to run the code on (df_all = tweets2016_df, tweets2020_df or tweets2016_2020_df)
+     <br/>2.1) Here you also need to define which dataset to run the code on (`df_all` = `tweets2016_df`, `tweets2020_df` or `tweets2016_2020_df`)
 3) Run `/Creating a word embedding using word2vec`, 
      <br/>3.1) Here you can also change the dimension of the word2vec (`word2vec_dim`), currently set to 350
 4) Run `/Data preproccesing and data split`,
