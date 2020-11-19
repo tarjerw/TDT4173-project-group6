@@ -27,8 +27,8 @@ The 3rd party file `TableIt.py` present in the git repository, must be uploaded 
 2) Run `/Data retrieval` to retrieve data from CSV files and create 3 datasets, 
 3) Run `/Splitting data` to split data into train and test sets, 
      <br/>3.1) Here you can alter the test set size (default is 20%) and see the distribution of tweets into the different sets
-4) Run `Transforming/Creating BOW model` to transform the data with the BOW method,
-5) Run `Transforming/Creating N-Gram model` to transform the data with the N-Gram method
+4) Run `/Transforming/Creating BOW model` to transform the data with the BOW method,
+5) Run `/Transforming/Creating N-Gram model` to transform the data with the N-Gram method
      <br/>5.1) Here you can change the min and max length of tokens (default is 1 to 4 words)
 6) Run `/Logistic regression using BOW` to train and test a logistic regression on the transformed BOW data 
      <br/>6.1) In `cd /Tunning hyperparameter C` you see how the models' accuracies flucutuate with different C values
