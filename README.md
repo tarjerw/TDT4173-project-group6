@@ -22,16 +22,16 @@ A more detailed description of how to run the code is also available within each
 ### Running CNN (ML_project_(CNN).ipynb)
 1) Run */Imported libraries*
 2) Run */Data retrival*, 
-     2.1) here you also need to define which dataset to run the code on (df_all = tweets2016_df, tweets2020_df or tweets2016_2020_df)
+     <br/>2.1) here you also need to define which dataset to run the code on (df_all = tweets2016_df, tweets2020_df or tweets2016_2020_df)
 3) Run */Creating a word embedding using word2vec*, 
-     3.1) NB: Before running, the dataset 'reddit_worldnews_start_to_2016-11-22.csv' need to be uploaded to colab. It can be accessed here: https://www.kaggle.com/rootuser/worldnews-on-reddit
-     3.2) Here you can also change the dimension of the word2vec (word2vec_dim), currently set to 350
+     <br/>3.1) NB: Before running, the dataset 'reddit_worldnews_start_to_2016-11-22.csv' need to be uploaded to colab. It can be accessed here: https://www.kaggle.com/rootuser/worldnews-on-reddit
+     <br/>3.2) Here you can also change the dimension of the word2vec (word2vec_dim), currently set to 350
 4) Run */Data preproccesing and data split*,
-     4.1) Under */Data Split*, test_size you can define the share of data used for testing
+     <br/>4.1) Under */Data Split*, test_size you can define the share of data used for testing
 5) Run */Creating the CNN architecture*
-     5.1) Here you can change the architecture of the CNN
+     <br/>5.1) Here you can change the architecture of the CNN
 6) Run */Training the CNN on the training data*
-     6.1) Here you can change the batch size, epochs and validation share
+     <br/>6.1) Here you can change the batch size, epochs and validation share
 7) Run */Testing the CNN on the test data*, outputs the results on the test data (accuracy, recall and test data split)
 
 NB: When running the code on a new dataset steps 2, 3, 4, 5, 6 and 7 need to be repeated! 
@@ -46,8 +46,4 @@ In addition, for training the word2vec model in ML_project_(CNN).ipynb, the 'red
 2) Running logistic regression using bag-of-words and n-gram is done in the file ML_project_(BOW).ipynb.
     <br/>2.1) Remember to upload TableIt.py to colab (in addition to TweetDatabase_2016.csv and TweetDatabase_2020.csv) to print out the tables.
 
-3) Running the CNN is done in the file ML_project_(CNN).ipynb. 
-    <br/>3.1) Under retrieve data, you need to set df_all equal to the dataset which you intend to use, (tweets2016_df, tweets2020_df, or tweets2016_2020_df)
-    <br/>3.2) the dimension of the word2vec embedding is defined in the variable word2vec_dim, which is set to 350
-    <br/>3.3) the number of epochs, and batch size is defined under "train the CNN", which are set to 40 and 400 respectively. 
     
