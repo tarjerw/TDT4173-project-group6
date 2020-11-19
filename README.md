@@ -14,7 +14,7 @@ For our methods we want have real life tweets, with the candidate name, tweet, y
 
 NB: Before running any of the code, the csv files TweetDatabase_2016.csv and TweetDatabase_2020.csv need to be uploaded to colab. 
 
-A more detailed description of how to run the code is also available within each colab file. 
+A more detailed description of how to run the code is also available within each colab file. Here we also link the code to relevant sections in the paper.   
 
 ### Running logistic regression (ML_project_(BOW).ipynb)
 
