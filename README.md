@@ -14,12 +14,32 @@ CNN on the other hand, used a deep neural network with convolutional layers to d
 
 Both machine learning methods are supervised learning methods, meaning that they use a labeled data set to train.
 
-When fetching tweets, we saved the candidate name, tweet, year (of tweet) and party in a comma-seperated values (csv) (TweetDatabase_2016.csv and TweetDatabase_2020.csv). In total we have 12 826 unique tweets (51.2% Democrat).The tweets were separated into three different datasets. The 2016 dataset only contains tweets from 2016 (6979 tweets, 54.1% Democrat).  The 2020 dataset(47.6% Democrat) only contains tweets from 2020 (5847 tweets).  The 2016-20 dataset is the union of the two other datasets.
+When fetching tweets, we saved the candidate name, tweet, year (of tweet) and party in csv files (TweetDatabase_2016.csv and TweetDatabase_2020.csv). In total we have 12 826 unique tweets (51.2% Democrat).The tweets were separated into three different datasets. The 2016 dataset only contains tweets from 2016 (6979 tweets, 54.1% Democrat).  The 2020 dataset(47.6% Democrat) only contains tweets from 2020 (5847 tweets). The 2016-20 dataset is the union of the two other datasets.
 
 ## HOW TO RUN THE METHODS:
 **NB:** Before running any of the code, the csv files `TweetDatabase_2016.csv` and `TweetDatabase_2020.csv` need to be uploaded to colab. 
 A more detailed description of how to run the code is also available within each colab file. Here we also link the code to relevant sections in the paper.   
 ### Running logistic regression - ML_project_(BOW).ipynb
+
+The 3rd party file `TableIt.py` present in the git repository, must be uploaded to colab before running (in addition to the two .csv files). This file was used to display python resuls in tables in a clear and simple manner, while minimizing the amount of unnecessary code. 
+
+1) Run `/Imported libraries` to import all libraries,
+2) Run `/Data retrival` to retrieve data from CSV files and create 3 datasets, 
+3) Run `/Splitting data` to split data into train and test sets, 
+     <br/>3.1) Here you can alter the test set size (default is 20%) and see the distribution of tweets into the different sets
+4) Run `Transforming/Creating BOW model` to transform the data with the BOW method,
+5) Run `Transforming/Creating N-Gram model` to transform the data with the N-Gram method
+     <br/>5.1) Here you can change the min and max length of tokens (default is 1 to 4 words)
+6) Run `/Logistic regression using BOW` to train and test a logistic regression on the transformed BOW data 
+     <br/>6.1) In `cd /Tunning hyperparameter C` you see the models' accuracy flucutuate with different C values
+     <br/>6.2) In `Accuracy results ` you see the models' accuracy given the fixed optimal C value for all 3 datasets
+7) Run `/Logistic regression using N-Gram` to train and test a logistic regression on the transformed N-Gram data 
+     <br/>7.1) Same as in 6) but for N-Gram
+8) Run `/Cross validation on both models` to verify the level of overfitting in the data
+     <br/>8.1) Here you can alter the number of folds in the cross validation function
+9) Run `/Confusion matrix` to see additional results, that are discussed in the paper
+
+
 ### Running CNN - ML_project_(CNN).ipynb
 
 The `'reddit_worldnews_start_to_2016-11-22.csv'` need to be downloaded and uploaded to colab from https://www.kaggle.com/rootuser/worldnews-on-reddit before running. This file was too large to be directly uploade to the git repository. 
