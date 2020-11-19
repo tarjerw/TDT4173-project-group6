@@ -31,8 +31,8 @@ The 3rd party file `TableIt.py` present in the git repository, must be uploaded 
 5) Run `Transforming/Creating N-Gram model` to transform the data with the N-Gram method
      <br/>5.1) Here you can change the min and max length of tokens (default is 1 to 4 words)
 6) Run `/Logistic regression using BOW` to train and test a logistic regression on the transformed BOW data 
-     <br/>6.1) In `cd /Tunning hyperparameter C` you see the models' accuracy flucutuate with different C values
-     <br/>6.2) In `Accuracy results ` you see the models' accuracy given the fixed optimal C value for all 3 datasets
+     <br/>6.1) In `cd /Tunning hyperparameter C` you see how the models' accuracies flucutuate with different C values
+     <br/>6.2) In `cd /Accuracy results ` you see the models' accuracies given a fixed regularization value C for all 3 datasets
 7) Run `/Logistic regression using N-Gram` to train and test a logistic regression on the transformed N-Gram data 
      <br/>7.1) Same as in 6) but for N-Gram
 8) Run `/Cross validation on both models` to verify the level of overfitting in the data
