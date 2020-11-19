@@ -66,7 +66,7 @@ The `'reddit_worldnews_start_to_2016-11-22.csv'` need to be downloaded and uploa
 3) Run `/Number of democrat and republican tweets`, 
 4) Run `/Number of tweets per candidate`,
 5) Run `/Comparing frequency of words between parties`
-    <br/>6.1) Here you can run the function `WordtoFrequency()` that counts the number of occurences of a given word in republican and democrat tweets.
+    <br/>5.1) Here you can run the function `WordtoFrequency()` that counts the number of occurences of a given word in republican and democrat tweets.
 
 
 
