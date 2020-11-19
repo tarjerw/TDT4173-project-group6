@@ -40,3 +40,6 @@ NB: When running the code on a new dataset steps 2, 3, 4, 5, 6 and 7 need to be 
 
 ### Running data analysis (ML_project_(data_analysis))
 
+
+
+NB: If you have trouble running any of the code, feel free to reach out at tarjerw@stud.ntnu.no :)
