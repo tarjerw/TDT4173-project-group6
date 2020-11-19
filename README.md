@@ -23,18 +23,18 @@ A more detailed description of how to run the code is also available within each
 
 The `'reddit_worldnews_start_to_2016-11-22.csv'` need to be downloaded and uploaded to colab from https://www.kaggle.com/rootuser/worldnews-on-reddit before running. This file was too large to be directly uploade to the git repository. 
 
-**1)** Run `/Imported libraries`
-**2)** Run `/Data retrival`, 
+1) Run `/Imported libraries`
+2) Run `/Data retrival`, 
      <br/>2.1) Here you also need to define which dataset to run the code on (`df_all` = `tweets2016_df`, `tweets2020_df` or `tweets2016_2020_df`)
-**3)** Run `/Creating a word embedding using word2vec`, 
+3) Run `/Creating a word embedding using word2vec`, 
      <br/>3.1) Here you can also change the dimension of the word2vec (`word2vec_dim`), currently set to 350
-**4)** Run `/Data preproccesing and data split`,
+4) Run `/Data preproccesing and data split`,
      <br/>4.1) Under `/Data Split`, `test_size` define the share of data used for testing
-**5)** Run `/Creating the CNN architecture`
+5) Run `/Creating the CNN architecture`
      <br/>5.1) Here you can change the architecture of the CNN
-**6)** Run `/Training the CNN on the training data`
+6) Run `/Training the CNN on the training data`
      <br/>6.1) Here you can change the batch size, epochs and validation share
-**7)** Run `/Testing the CNN on the test data`, outputs the results on the test data (accuracy, recall and test data split)
+7) Run `/Testing the CNN on the test data`, outputs the results on the test data (accuracy, recall and test data split)
 
 **NB:** When running the code on a new dataset steps **2, 3, 4, 5, 6 and 7** need to be repeated! 
 
