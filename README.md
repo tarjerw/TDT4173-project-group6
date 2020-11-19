@@ -20,12 +20,14 @@ A more detailed description of how to run the code is also available within each
 
 
 ### Running CNN (ML_project_(CNN).ipynb)
+
+The 'reddit_worldnews_start_to_2016-11-22.csv' need to be downloaded and uploaded to colab from https://www.kaggle.com/rootuser/worldnews-on-reddit before running. This file was too large to be directly uploade to the git repository. 
+
 1) Run */Imported libraries*
 2) Run */Data retrival*, 
      <br/>2.1) here you also need to define which dataset to run the code on (df_all = tweets2016_df, tweets2020_df or tweets2016_2020_df)
 3) Run */Creating a word embedding using word2vec*, 
-     <br/>3.1) NB: Before running, the dataset 'reddit_worldnews_start_to_2016-11-22.csv' need to be uploaded to colab. It can be accessed here: https://www.kaggle.com/rootuser/worldnews-on-reddit
-     <br/>3.2) Here you can also change the dimension of the word2vec (word2vec_dim), currently set to 350
+     <br/>3.1) Here you can also change the dimension of the word2vec (word2vec_dim), currently set to 350
 4) Run */Data preproccesing and data split*,
      <br/>4.1) Under */Data Split*, test_size you can define the share of data used for testing
 5) Run */Creating the CNN architecture*
