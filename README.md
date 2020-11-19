@@ -25,7 +25,7 @@ The 'reddit_worldnews_start_to_2016-11-22.csv' need to be downloaded and uploade
 
 1) Run */Imported libraries*
 2) Run */Data retrival*, 
-     <br/>2.1) here you also need to define which dataset to run the code on (df_all = tweets2016_df, tweets2020_df or tweets2016_2020_df)
+     <br/>2.1) Here you also need to define which dataset to run the code on (df_all = tweets2016_df, tweets2020_df or tweets2016_2020_df)
 3) Run */Creating a word embedding using word2vec*, 
      <br/>3.1) Here you can also change the dimension of the word2vec (word2vec_dim), currently set to 350
 4) Run */Data preproccesing and data split*,
@@ -40,12 +40,3 @@ NB: When running the code on a new dataset steps 2, 3, 4, 5, 6 and 7 need to be 
 
 ### Running data analysis (ML_project_(data_analysis))
 
-In addition, for training the word2vec model in ML_project_(CNN).ipynb, the 'reddit_worldnews_start_to_2016-11-22.csv' need to be downloaded and uploaded to colab from https://www.kaggle.com/rootuser/worldnews-on-reddit. This file was too large to be directly uploade to the git repository. 
-
-1) Data analytics, of the dataset is done in the file ML_project_(data_analysis). 
-     <br/>1.1) Remember to upload TableIt.py to colab (in addition to TweetDatabase_2016.csv and TweetDatabase_2020.csv) to print out the tables.
-
-2) Running logistic regression using bag-of-words and n-gram is done in the file ML_project_(BOW).ipynb.
-    <br/>2.1) Remember to upload TableIt.py to colab (in addition to TweetDatabase_2016.csv and TweetDatabase_2020.csv) to print out the tables.
-
-    
