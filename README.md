@@ -19,8 +19,8 @@ When fetching tweets, we saved the candidate name, tweet, year (of tweet) and pa
 ## HOW TO RUN THE METHODS:
 **NB:** Before running any of the code, the csv files `TweetDatabase_2016.csv` and `TweetDatabase_2020.csv` need to be uploaded to colab. 
 A more detailed description of how to run the code is also available within each colab file. Here we also link the code to relevant sections in the paper.   
-### Running logistic regression (ML_project_(BOW).ipynb)
-### Running CNN (ML_project_(CNN).ipynb)
+### Running logistic regression - ML_project_(BOW).ipynb
+### Running CNN - ML_project_(CNN).ipynb
 
 The `'reddit_worldnews_start_to_2016-11-22.csv'` need to be downloaded and uploaded to colab from https://www.kaggle.com/rootuser/worldnews-on-reddit before running. This file was too large to be directly uploade to the git repository. 
 
@@ -39,5 +39,5 @@ The `'reddit_worldnews_start_to_2016-11-22.csv'` need to be downloaded and uploa
 
 **NB:** When running the code on a new dataset steps **2, 3, 4, 5, 6 and 7** need to be repeated! 
 
-### Running data analysis (ML_project_(data_analysis))
+### Running data analysis - ML_project_(data_analysis)
 **NB:** If you have trouble running any of the code, feel free to reach out at tarjerw@stud.ntnu.no :)
